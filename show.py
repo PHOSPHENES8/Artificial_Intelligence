@@ -10,6 +10,9 @@ import time
 
 
 def printMap(map):
+    '''
+    Function: 图形化显示9宫格
+    '''
     j = -2
     for i in range(9):
         if i % 3 == 0:
